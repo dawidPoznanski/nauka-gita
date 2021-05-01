@@ -3,6 +3,9 @@
 }
 body {
   font-family: "Poppins", sans-serif;
+  position: relative;
+  padding: 0;
+  margin: 0 auto;
 }
 h1 {
   font-size: 50px;
@@ -17,4 +20,12 @@ h4 {
 }
 em {
   font-weight: 100;
+}
+.song-info {
+  height: 50%;
+  width: 40%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
